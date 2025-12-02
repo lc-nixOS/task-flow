@@ -31,6 +31,7 @@ const catppuccinColors = [
   { name: 'Rosewater', light: '#dc8a78', dark: '#f5e0dc' },
 ];
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function IndicatorsModule({ indicators, tasks, onCreateIndicator, onDeleteIndicator }: IndicatorsModuleProps) {
   const [isCreateOpen, setIsCreateOpen] = useState(false);
   const [newIndicatorName, setNewIndicatorName] = useState('');

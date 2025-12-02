@@ -253,7 +253,7 @@ export  function TaskApp() {
   return (
     <div className="bg-background min-h-screen">
       {/* Header */}
-      <header className="top-0 z-50 sticky bg-background/95 supports-[backdrop-filter]:bg-background/60 backdrop-blur border-b w-full">
+      <header className="top-0 z-50 sticky bg-background/95 supports-backdrop-filter:bg-background/60 backdrop-blur border-b w-full">
         <div className="flex justify-between items-center px-4 sm:px-6 lg:px-8 h-14 container">
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">
